@@ -34,15 +34,22 @@
 
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top">
-    <div class="container d-flex align-items-center justify-content-between">
-
-      <h1 class="logo" style="color: white;">Software Engineer</h1>
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-
-
-
-    </div>
+      <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+          <a href="#about" class="navbar-brand">About</a>
+          <a href="#work" class="navbar-brand">Projects</a>
+          <a href="#contact" class="navbar-brand">Contact</a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav">
+                </div>
+                <div class="navbar-nav ms-auto">
+                </div>
+            </div>
+        </div>
+    </nav>
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
@@ -84,7 +91,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="skill-mf">
+                  <div class="" style="display: none">
                     <p class="title-s">Skill</p>
                     <span>HTML5</span> <span class="pull-right"></span>
                     <div class="progress">
@@ -160,7 +167,56 @@
           </div>
         </div>
         <div class="row">
+         <!-- project 1 -->
           <div class="col-md-4">
+            <div class="work-box">
+              <a href="https://socialnetwork-lamp.herokuapp.com/showAllPosts.php" data-gallery="portfolioGallery" class="" target="_blank">
+                <div class="work-img">
+                  <img src="assets/img/project2.png" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Social App Chatter</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory"><a href="https://github.com/ScottSauceda/socialNetworkLamp" target="_blank">See Code</a></span> <span class="w-date"></span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+           <!-- project 2 -->
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="https://res-reviews-frontend.herokuapp.com/restaurants" data-gallery="portfolioGallery" class="" target="_blank">
+                <div class="work-img">
+                  <img src="assets/img/project3.png" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Restaurant Reviews</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory"><a href="https://github.com/ScottSauceda/restaurantReview-FrontEnd" target="_blank">See Code</a></span><span class="w-date"></span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- project 3 -->
+           <div class="col-md-4">
             <div class="work-box">
               <a href="https://mysterious-everglades-27849.herokuapp.com/" data-gallery="portfolioGallery" class="" target="_blank">
                 <div class="work-img">
@@ -183,53 +239,6 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="work-box">
-              <a href="https://peaceful-reef-55162.herokuapp.com/" data-gallery="portfolioGallery" class="" target="_blank">
-                <div class="work-img">
-                  <img src="assets/img/project2.png" alt="" class="img-fluid">
-                </div>
-              </a>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">Javascript Jukebox</h2>
-                    <div class="w-more">
-                      <span class="w-ctegory"><a href="https://github.com/ScottSauceda/jukeBoxReact" target="_blank">See Code</a></span> <span class="w-date"></span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="work-box">
-              <a href="http://scottsauceda.com/fightiq/index.php" data-gallery="portfolioGallery" class="" target="_blank">
-                <div class="work-img">
-                  <img src="assets/img/project3.png" alt="" class="img-fluid">
-                </div>
-              </a>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">Fight IQ</h2>
-                    <div class="w-more">
-                      <span class="w-ctegory"><a href="https://github.com/ScottSauceda/fightIQ" target="_blank">See Code</a></span><span class="w-date"></span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          
         </div>
       </div>
     </section><!-- End Portfolio Section -->
